@@ -60,10 +60,10 @@ class MyHomePage extends StatelessWidget {
       fontFamily: 'Heiti',
     );
 
-    Text koreanCustom = new Text(
-      'Korean Pilgiche font: 한국어 \u{D55C}\u{AE00}',
-      style: customKoreanFontStyle,
-    );
+//    Text koreanCustom = new Text(
+//      'Korean Pilgiche font: 한국어 \u{D55C}\u{AE00}',
+//      style: customKoreanFontStyle,
+//    );
 
     return new Scaffold(
       appBar: new AppBar(
@@ -73,28 +73,28 @@ class MyHomePage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.start,
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
-            new Text(
-              'Korean default font: 한국어 \u{D55C}\u{AE00}',
-              style: defaultStyle,
-            ),
-            new Text(
-              'Chinese default font: 孤山寺北贾亭西',
-              style: defaultStyle,
-            ),
+//            new Text(
+//              'Korean default font: 한국어 \u{D55C}\u{AE00}',
+//              style: defaultStyle,
+//            ),
+//            new Text(
+//              'Chinese default font: 中国 汉语',
+//              style: defaultStyle,
+//            ),
             new Text(
               'Western AbrilFatface font: Just a test!',
               style: customAbrilFatfaceStyle,
             ),
-            koreanCustom,
-            new Text(
-              'Chinese custom font: 亭西 \u{89d2} \u{5000} testing',
-              style: customChineseFontStyle,
-            ),
-            new FlatButton(
-                child: new Text('Dump style for Korean'),
-                onPressed: () {
-                  print(koreanCustom.style);
-                }),
+//            koreanCustom,
+//            new Text(
+//              'Chinese Heiti font: 中国 汉语',
+//              style: customChineseFontStyle,
+//            ),
+//            new FlatButton(
+//                child: new Text('Dump style for Korean'),
+//                onPressed: () {
+//                  print(koreanCustom.style);
+//                }),
           ]),
     );
   }
