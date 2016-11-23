@@ -1,0 +1,15 @@
+name: learning_flutter
+uses-material-design: true
+fonts:
+  - family: AbrilFatface
+    fonts:
+      - asset: assets/fonts/abrilfatface/AbrilFatface-Regular.ttf
+  - family: Heiti
+    fonts:
+      - asset: ./assets/fonts/STHeitiTC-Medium.ttf
+  - family: Nanum
+    fonts:
+      - asset: ./assets/fonts/nanum/NanumPenScript-Regular.ttf
+  - family: Pilgiche
+    fonts:
+      - asset: ./assets/fonts/pilgi/Pilgiche.ttf
