@@ -1,8 +1,8 @@
-# flutter_unicode_test
+# Flutter Unicode Rendering Test App
 
-A new flutter project.
+Flutter test application for Unicode glyph rendering of East Asian languages.
+See [Flutter issue #6939](https://github.com/flutter/flutter/issues/6939).
 
-## Getting Started
+## Screenshots
 
-For help getting started with Flutter, view our online
-[documentation](http://flutter.io/).
+![Android / Galaxy note 5 Debug mode](images/Android-Debug-Galaxy-Note5.png)
